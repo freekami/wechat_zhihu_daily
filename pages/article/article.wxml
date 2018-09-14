@@ -1,0 +1,7 @@
+<view>
+  <view class='headline'>
+    <image class="headline-image" src="{{article.image}}" mode="aspectFill"></image>
+    <view class='headline-title'>{{article.title}}</view>
+  </view>
+  <rich-text nodes="{{article.body}}"></rich-text>
+</view>

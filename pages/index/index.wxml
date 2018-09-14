@@ -1,0 +1,4 @@
+<view wx:for="{{list}}" wx:for-item="item" wx:key="item.id" class="article" data-id="{{item.id}}" bindtap="goToArticle">
+  <image class="article-image" src="{{item.images[0]}}" mode="cover"></image>
+  <text class="article-title {{item.visited ? 'visited' : ''}}">{{item.title}}</text>
+</view>
